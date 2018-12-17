@@ -1,0 +1,33 @@
+body{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+.images{
+  background: url('img/bcg-0.jpeg');
+  background-size: 100% 100%;
+  flex: 0 0 95%;
+  height: 100%;
+  position: relative;
+}
+.btn{
+  border-radius: 100%;
+  outline: none;
+}
+.btn:hover{
+  background: green;
+}
+.nextBtn{
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(50%,-50%);
+}
+.prevBtn{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%,-50%);
+}

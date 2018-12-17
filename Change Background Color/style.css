@@ -1,0 +1,14 @@
+body{
+  display: flex;
+  height: 100vh;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+}
+.btnClass{
+  padding: .85rem .85rem;
+  border-radius: 7px;
+  font-size: 1rem;
+  text-transform: capitalize;
+  outline: none;
+}

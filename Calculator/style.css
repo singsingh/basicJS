@@ -1,0 +1,19 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ececec;
+}
+.calC{
+  width: 0 0 95%;
+}
+.screen{
+  width: 100%;
+  font-size: 7rem;
+}
